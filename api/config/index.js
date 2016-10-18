@@ -1,3 +1,4 @@
+// require json file with the DB credentials
 var configValues = require('./config');
 
 modules.exports = {

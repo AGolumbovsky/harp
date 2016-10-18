@@ -4,7 +4,8 @@ var port = process.env.PORT || 8778;
 
 var app = express();
 
-// app.use(); // serve static files
+// server static files
+app.use('/', express.static(__dirname + '/public'));
 
 app.listen(port, function() {
 
