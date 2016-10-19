@@ -5,6 +5,7 @@ module.exports = function(app) {
 	app.get('api/setup', function(req, res) {
 
 		var starterThings = [
+		
             {
 
                 uno: "one   ", 
