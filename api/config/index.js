@@ -5,7 +5,7 @@ modules.exports = {
 
 	getDBConnectionString: function() {
 
-		return 'mongodb://' + configValues.user + ':' + configValues.password + 'provide valid password';
+		return 'mongodb://' + configValues.user + ':' + configValues.password + 'provide valid password'; // provide valid password 
 
 	}
 
